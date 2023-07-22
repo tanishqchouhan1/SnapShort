@@ -1,0 +1,7 @@
+{
+  "mongoURI": "mongodb+srv://iib2020013:4wi6j2CrvM4Uzw5R@tinyurl.7r7gbpt.mongodb.net/testurl",
+  "baseUrl": "http://localhost:5000"
+}
+
+// password- 4wi6j2CrvM4Uzw5R 
+//user name - iib2020013
