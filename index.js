@@ -1,8 +1,9 @@
 const express = require('express');
-const connectDB = require('./config/db');
 const cors = require('cors');
+const dotenv = require("dotenv");// loads environment variables from a .env file into process.env
+dotenv.config({ path: "./config.env" });
+const connectDB = require('./config/db');
 const app = express();
-
 // Connect to database
 connectDB();
 app.use(cors({ credentials: true, origin: true }));
