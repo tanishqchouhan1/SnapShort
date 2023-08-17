@@ -2,28 +2,42 @@
 <html>
 
 <head>
-    <title>URL Shortener</title>
+    <title>SnapShort</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image: url('https://i.postimg.cc/RZhbgtVK/back.png');
+        }
+    </style>
 </head>
 
 <body>
     <div class="maincontainer">
-        <h1>URL Shortener</h1>
+        <h1><image src="https://i.postimg.cc/FsLxzxRP/icons8-url.gif"></image>  SnapShort: Where Long Links Disappear </h1>
         <form>
-            <label for="long-url">Enter or Paste Your long URL:</label>
+            <h3><label for="long-url">
+                <image src="https://i.postimg.cc/YS9GGpRp/logo.png"></image> Enter Your long URL:
+            </label></h3>
             <input type="text" id="long-url" name="long-url">
             <button type="button" id="shorten-btn">Shorten</button>
         </form>
-        <div id="short-url-container" style="display:none">
+        <h3><div id="short-url-container" style="display:none">
             <p>Here's your shortened URL:</p>
             <div id="short-url">
+                <image src="https://i.postimg.cc/8zqQW4Bj/icons8-website-100.png"></image>
                 <a href="" target="_blank"></a>
                 <button type="button" id="copy-btn">Copy</button>
                 <button type="button" id="clear-btn">Clear</button>
             </div>
-        </div>
+        </div></h3>
     </div>
     <script src="script.js"></script>
+
+    </section>
+    <footer id="footer">
+        <p>SnapShort &copy; Tanishq Chouhan</p>
+    </footer>
 </body>
 
 </html>
